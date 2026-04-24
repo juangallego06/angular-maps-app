@@ -1,59 +1,29 @@
-# CountryApp
+🗺️ Visor de Mapas Interactivo (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.22.
+Aplicación web desarrollada en Angular que integra una API de terceros para la visualización de información geoespacial en tiempo real. Permite explorar ubicaciones mediante una interfaz dinámica en pantalla completa.
 
-## Development server
+🔗 Demo:
+https://glowing-vacherin-397752.netlify.app/#/fullscreen
 
-To start a local development server, run:
+🚀 Características principales
+Visualización de mapas en pantalla completa
+Consumo de API externa para datos geoespaciales
+Renderizado dinámico de ubicaciones
+Navegación interactiva y fluida
+Arquitectura basada en componentes reutilizables
+🛠️ Tecnologías utilizadas
+Angular (v17+)
+TypeScript
+Consumo de APIs REST
+TailwindCSS / DaisyUI (si aplica)
+🧠 Enfoque técnico
 
-```bash
-ng serve
-```
+La aplicación está estructurada bajo un enfoque modular, separando la lógica de consumo de datos de la capa de presentación. Se priorizó la reutilización de componentes y la claridad en la gestión del estado para facilitar escalabilidad y mantenimiento.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+📌 Objetivo del proyecto
 
-## Code scaffolding
+Este proyecto fue desarrollado como práctica para reforzar:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Integración de APIs externas
+Manejo de datos en tiempo real
+Construcción de interfaces dinámicas en Angular

@@ -26,5 +26,7 @@ La aplicación está estructurada bajo un enfoque modular, separando la lógica 
 Este proyecto fue desarrollado como práctica para reforzar:
 
 Integración de APIs externas
+
 Manejo de datos en tiempo real
+
 Construcción de interfaces dinámicas en Angular

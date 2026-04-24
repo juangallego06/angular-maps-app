@@ -1,0 +1,9 @@
+@for (region of regions; track $index) {
+  <button
+    class="btn btn-outline btn-primary"
+    (click)="emit(region)"
+    [class.btn-active]="selectedRegion() === region"
+  >
+    {{ region }}
+  </button>
+}

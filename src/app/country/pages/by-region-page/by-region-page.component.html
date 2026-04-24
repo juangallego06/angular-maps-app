@@ -1,0 +1,11 @@
+<section class="m-5">
+  <app-buttons-search (regionSelected)="query.set($event)"></app-buttons-search>
+</section>
+
+<country-list
+  [errorMessage]="countryResource.error()"
+  [isEmpty]="countryResource.value()?.length === 0"
+  [countries]="countryResource.value() ?? []"
+  [isLoading]="countryResource.isLoading()"
+>
+</country-list>

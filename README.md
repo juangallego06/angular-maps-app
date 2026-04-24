@@ -15,7 +15,8 @@ Arquitectura basada en componentes reutilizables
 Angular (v17+)
 TypeScript
 Consumo de APIs REST
-TailwindCSS / DaisyUI (si aplica)
+TailwindCSS / DaisyUI 
+
 🧠 Enfoque técnico
 
 La aplicación está estructurada bajo un enfoque modular, separando la lógica de consumo de datos de la capa de presentación. Se priorizó la reutilización de componentes y la claridad en la gestión del estado para facilitar escalabilidad y mantenimiento.

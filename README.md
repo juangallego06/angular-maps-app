@@ -2,6 +2,7 @@
 
 Aplicación web desarrollada en Angular que integra una API de terceros para la visualización de información geoespacial en tiempo real. Permite explorar ubicaciones mediante una interfaz dinámica en pantalla completa.
 
+
 🔗 Demo:
 https://glowing-vacherin-397752.netlify.app/#/fullscreen
 
@@ -11,6 +12,8 @@ Consumo de API externa para datos geoespaciales
 Renderizado dinámico de ubicaciones
 Navegación interactiva y fluida
 Arquitectura basada en componentes reutilizables
+
+
 🛠️ Tecnologías utilizadas
 Angular (v17+)
 TypeScript
